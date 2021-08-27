@@ -1,0 +1,7 @@
+// Converts the number stored in N to a string stored in Str1
+"?"
+For(x,0,log(N+not(N))
+sub("0123456789",iPart(10fPart(N/10^(x+1)))+1,1)+Ans
+End
+Ans->Str1
+sub(Str1,1,length(Str1)-1)->Str1
