@@ -1,0 +1,8 @@
+//Prints what's in Str1, splits it into multiple lines if it doesn't fit in a line.
+//yes this is disgusting
+While length(Str1)>16
+sub(Str1,1,16)->Str2
+Disp Str2
+sub(Str1,17,length(Str1)-16)->Str1
+End
+Disp Str1
